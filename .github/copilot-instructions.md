@@ -11,3 +11,7 @@
 ## FastAPI Guidelines
 - Use Pydantic models for data validation and serialization and for the FastAPI response models.
 - Only use the type hints, do not use the `response_model` parameter in the FastAPI route decorators.
+
+## Testing
+- Use `pytest` for writing tests.
+- Include only one assertion per test function.
